@@ -36,9 +36,9 @@ const Home = () => {
             variants={fadeIn('down', 0.3)} initial="hidden"
             animate='show'
             exit={'hidden'}
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">lorem aaaaaaaaaaaaaa aaaaaaaaaaaaaa aaaa aaaa aaaaaa aaa aaa aaaa a</motion.p>
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"></motion.p>
 
-          <div className="flex justify-center xl:hidden relative">
+          <div className="flex justify-center xl:hidden relative z-10">
             <ProjectsBtn />
           </div>
           <motion.div
@@ -58,7 +58,7 @@ const Home = () => {
         </div>
       </div>
       {/* //imagem  */} <div className="w-[1200px] h-full absolute right-0 bottom-0">
-        {/* bg imagem */} <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
+        {/* bg imagem */} <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0 z-0"></div>
 
         {/* particulas */} <ParticleContainer/>
 
