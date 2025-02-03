@@ -48,7 +48,7 @@ const aboutData = [
     title: 'experiência',
     info: [
       {
-        title: 'Sem Experiência',
+        title: 'Autônomo: projeto sobre demanda',
         stage: '',
       },
     ],
@@ -57,11 +57,7 @@ const aboutData = [
     title: 'cursos',
     info: [
       {
-        title: 'Python - FIAP',
-        stage: '2024',
-      },
-      {
-        title: 'CSS e HTML - FIAP',
+        title: 'Python - FIAP ON',
         stage: '2024',
       },
       {
@@ -70,6 +66,14 @@ const aboutData = [
       },
       {
         title: 'React - FIAP',
+        stage: '2024',
+      },
+      {
+        title: 'Linux Fundamentos - FIAP ON',
+        stage: '2024',
+      },
+      {
+        title: 'SQL - FIAP',
         stage: '2024',
       },
     ],
