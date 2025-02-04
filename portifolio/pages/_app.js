@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <AnimatePresence mode='wait'>
-        <motion.div key={router.route} className='h-full'>
+        <motion.div key={router.route} className='h-full min-h-screen overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200'>
         
           <Transition/>
           <Component {...pageProps} />
