@@ -28,10 +28,10 @@ const workSlides = {
         },
         {
             images: [
-                { title: "confira", path: "/ecotrend1.png", link:"https://workshop-de-html-e-css.vercel.app"  },
-                { title: "confira", path: "/ecotrend2.png", link:"https://workshop-de-html-e-css.vercel.app"  },
-                { title: "confira", path: "/ecotrend3.png", link:"https://workshop-de-html-e-css.vercel.app"  },
-                { title: "confira", path: "/ecotrend4.png", link:"https://workshop-de-html-e-css.vercel.app"  }
+                { title: "confira", path: "/ecotrend01.png", link:"https://workshop-de-html-e-css.vercel.app"  },
+                { title: "confira", path: "/ecotrend02.png", link:"https://workshop-de-html-e-css.vercel.app"  },
+                { title: "confira", path: "/ecotrend03.png", link:"https://workshop-de-html-e-css.vercel.app"  },
+                { title: "confira", path: "/ecotrend04.png", link:"https://workshop-de-html-e-css.vercel.app"  }
             ]
         }
     ]
