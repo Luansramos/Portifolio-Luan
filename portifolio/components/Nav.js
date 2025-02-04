@@ -12,11 +12,8 @@ import {
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
   { name: 'about', path: '/about', icon: <HiUser /> },
-  {
-    name: 'contact',
-    path: '/contact',
-    icon: <HiEnvelope />,
-  },
+  {name: 'contact', path: '/contact', icon: <HiEnvelope />,},
+  {name: 'work', path: '/work', icon: <HiRectangleGroup />,},
 ];
 
 import Link from 'next/link';
